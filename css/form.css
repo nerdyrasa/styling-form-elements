@@ -4,7 +4,11 @@
 body {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 175px -120px;
+    background-image: url(../images/background.jpg);
+    background-color: #4e81c2;
+    background-size: cover;
 }
 
 div#page-wrap {
@@ -13,21 +17,22 @@ div#page-wrap {
 }
 
 form#signup {
-    max-width: 800px;
-    padding: 15px;
-    background: #5890d0 url(../images/background.jpg) no-repeat 0 -70px;
+    /*max-width: 800px;*/
+    /*padding: 15px;*/
 }
 
 form#signup h2 {
     margin: 0;
     color: #ffffff;
     font-size: 2em;
+    line-height: 2; 
 }
 
 form#signup h3 {
     margin: -5px 0 12px 0;
     color: #ffffff;
     font-size: 1.2em;
+    line-height: 1.5;
 }
 
 form#signup h4 {
@@ -134,7 +139,7 @@ form#signup input#email:focus {
     background-color: #fff;
 }
 
-form#signup input[type=submit] {
+form#signup input[type=button] {
     font-size: .9em;
     color: #ffffff;
     border: none;
@@ -146,6 +151,12 @@ form#signup input[type=submit] {
     -webkit-appearance: none;
 }
 
-form#signup input[type=submit]:hover {
+form#signup input[type=button]:hover {
     color: #ffd34c;
+}
+
+p#thanks {
+    display: none;
+    color: #fff;
+    font-size: 3em;
 }
