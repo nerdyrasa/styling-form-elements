@@ -7,6 +7,11 @@ body {
     background-color: #fff;
 }
 
+div#page-wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
 form#signup {
     max-width: 800px;
     padding: 15px;
